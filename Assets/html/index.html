@@ -14,7 +14,7 @@
   </head>
   <body>
     <section class="container">
-      <h1>Cálculo do Índice de Massa Corporal (IMC).</h1>
+      <h1>Calculadora IMC: calcule o seu Índice de Massa Corporal.</h1>
       <div class="descricao">
         <div class="primeira__coluna">
           <h2 class="tabela">IMC</h2>
@@ -41,13 +41,15 @@
       </div>
       <section class="calculo">
         <h2 class="calculo__titulo">Calcule seu IMC</h2>
-        <form class="calculo__form" action="">
+        <form action="/" id="formulario" method="post">
           <label for="peso">Peso:</label>
-          <input type="text" id="peso" />
+          <input type="text" id="peso" name="peso" />
           <label for="altura">Altura:</label>
-          <input type="text" id="altura" />
-          <button>Enviar</button>
+          <input type="text" id="altura" name="altura" />
+          <button>Calcular</button>
         </form>
+
+        <div id="resultado"></div>
       </section>
     </section>
     <script src="../javascript/script.js"></script>

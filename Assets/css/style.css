@@ -1,5 +1,9 @@
 :root {
   --primary-color: #5c95a1;
+  --result-positivo-color: #34c77b;
+  --black-color: #2a2a2a;
+  --cinza-color: #8c8f8f;
+
   --primary-darker: #0e4d5a;
 
   --font-primary: "Open Sans";
@@ -18,7 +22,7 @@ body {
   line-height: 1.5em;
 }
 .container {
-  max-width: 720px;
+  max-width: 640px;
   margin: 50px auto;
   padding: 20px;
   background: #ffff;
@@ -74,4 +78,12 @@ form button:hover {
 .calculo__titulo {
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.paragrafo-resultado-positivo {
+  font-size: 18px;
+  font-weight: 700;
+  background: var(--result-positivo-color);
+  color: var(--black-color);
+  text-align: center;
 }
