@@ -96,3 +96,34 @@ form button:hover {
   color: var(--black-color);
   text-align: center;
 }
+
+@media screen and (min-width: 375px) {
+  .container {
+    margin: 15px;
+  }
+
+  .titulo {
+    font-size: 25px;
+  }
+  .tabela {
+    font-size: 18px;
+  }
+  .tabela__lista-item {
+    font-size: 16px;
+  }
+  .calculo__titulo {
+    font-size: 25px;
+  }
+  .form,
+  label,
+  input,
+  :placeholder-shown {
+    font-size: 20px;
+  }
+  .paragrafo-resultado-positivo {
+    font-size: 16px;
+  }
+  .paragrafo-resultado-negativo {
+    font-size: 16px;
+  }
+}
